@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>База отдыха "Лесная поляна" - отдых на природе</title>
+    <meta name="description" content="База отдыха 'Лесная поляна' - комфортный отдых на природе. Домики, рыбалка, баня, активности. Бронирование онлайн!">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navigation">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <a href="#home" class="logo-link">
+                        <span class="logo-text">🏕️ Лесная поляна</span>
+                    </a>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link">Главная</a>
+                    <a href="#about" class="nav-link">О базе</a>
+                    <a href="#services" class="nav-link">Размещение</a>
+                    <a href="#portfolio" class="nav-link">Галерея</a>
+                    <a href="#contact" class="nav-link">Контакты</a>
+                    <a href="#booking" class="nav-cta-btn">Забронировать</a>
+                </div>
+                
+                <button class="nav-toggle" id="nav-toggle" aria-label="Меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Отдых на природе в комфортных домиках</h1>
+                <p class="hero-subtitle">Рыбалка, баня, активности | Уютные номера | Собственный пляж | От 2000₽/сутки</p>
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn-primary">Забронировать номер</a>
+                    <a href="#services" class="btn-secondary">Посмотреть домики</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span class="scroll-text">Прокрутите вниз</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- О нас -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">О базе отдыха</h2>
+                <p class="section-subtitle">Комфортный отдых на природе с современными удобствами</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Добро пожаловать в "Лесную поляну"</h3>
+                        <p>Наша база отдыха расположена в живописном месте среди хвойного леса. Мы предлагаем комфортное размещение в уютных домиках, организацию досуга и незабываемые впечатления от общения с природой.</p>
+                        
+                        <h3>Почему выбирают нас</h3>
+                        <ul class="benefits-list">
+                            <li>🏠 Комфортные домики с удобствами</li>
+                            <li>🎣 Собственное озеро для рыбалки</li>
+                            <li>🧽 Баня и SPA-процедуры</li>
+                            <li>🏖️ Пляжная зона и активности</li>
+                            <li>🚗 Удобная парковка</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>Фото базы отдыха</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Размещение и услуги</h2>
+                <p class="section-subtitle">Комфортные домики и развлечения для незабываемого отдыха</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-placeholder">💼</div>
+                    </div>
+                    <h3 class="service-title">Семейные домики</h3>
+                    <p class="service-description">Уютные домики на 4-6 человек с террасой, мангалом и всей необходимой мебелью</p>
+                    <a href="#booking" class="service-link">От 2500₽/сутки</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-placeholder">🎯</div>
+                    </div>
+                    <h3 class="service-title">Баня и SPA</h3>
+                    <p class="service-description">Русская баня на дровах, сауна, массаж и другие SPA-процедуры</p>
+                    <a href="#booking" class="service-link">Записаться</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <div class="icon-placeholder">🚀</div>
+                    </div>
+                    <h3 class="service-title">Рыбалка и активности</h3>
+                    <p class="service-description">Озеро с рыбой, прокат лодок, велосипедов, спортивные площадки</p>
+                    <a href="#booking" class="service-link">Программа</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Фотогалерея</h2>
+                <p class="section-subtitle">Посмотрите, как выглядит наша база отдыха</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Домики</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4 class="portfolio-title">Семейные домики</h4>
+                                <p class="portfolio-category">Размещение</p>
+                                <a href="#booking" class="portfolio-link">Забронировать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Баня</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4 class="portfolio-title">Русская баня</h4>
+                                <p class="portfolio-category">SPA</p>
+                                <a href="#booking" class="portfolio-link">Записаться</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">
+                            <span>Озеро</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4 class="portfolio-title">Озеро и пляж</h4>
+                                <p class="portfolio-category">Природа</p>
+                                <a href="#booking" class="portfolio-link">Рыбалка</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Контакты и бронирование</h2>
+                <p class="section-subtitle">Свяжитесь с нами для бронирования номера</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>Контактная информация</h4>
+                        <p><strong>Телефон:</strong> +7 (999) 123-45-67</p>
+                        <p><strong>Email:</strong> info@lesnapolyana.ru</p>
+                        <p><strong>Адрес:</strong> Московская область, Одинцовский район</p>
+                        <p><strong>Время работы:</strong> Круглосуточно</p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Мы в соцсетях</h4>
+                        <div class="social-grid">
+                            <a href="#" class="social-link">VK</a>
+                            <a href="#" class="social-link">Telegram</a>
+                            <a href="#" class="social-link">WhatsApp</a>
+                        </div>
+                        <p style="margin-top: 12px; color: var(--text-muted);">Подписывайтесь на наши страницы для получения акций!</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form class="form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Имя</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Телефон</label>
+                            <input type="tel" id="phone" name="phone" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Сообщение</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Бронирование -->
+    <section id="booking" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Бронирование онлайн</h2>
+                <p class="section-subtitle">Забронируйте ваш отдых прямо сейчас</p>
+            </div>
+            
+            <div class="booking-content">
+                <div class="booking-info">
+                    <h3>Как забронировать:</h3>
+                    <ul class="booking-steps">
+                        <li>1️⃣ Выберите даты пребывания</li>
+                        <li>2️⃣ Укажите количество гостей</li>
+                        <li>3️⃣ Заполните контактные данные</li>
+                        <li>4️⃣ Подтвердите бронирование</li>
+                    </ul>
+                    
+                    <div class="booking-contact">
+                        <h4>📞 Быстрое бронирование:</h4>
+                        <p><strong>Телефон:</strong> +7 (999) 123-45-67</p>
+                        <p><strong>WhatsApp:</strong> +7 (999) 123-45-67</p>
+                        <p><strong>Email:</strong> booking@lesnapolyana.ru</p>
+                    </div>
+                </div>
+                
+                <div class="booking-form">
+                    <form class="booking-form-inner">
+                        <div class="form-group">
+                            <label for="checkin">Дата заезда</label>
+                            <input type="date" id="checkin" name="checkin" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="checkout">Дата выезда</label>
+                            <input type="date" id="checkout" name="checkout" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="guests">Количество гостей</label>
+                            <select id="guests" name="guests" required>
+                                <option value="">Выберите</option>
+                                <option value="2">2 человека</option>
+                                <option value="4">4 человека</option>
+                                <option value="6">6 человек</option>
+                                <option value="8">8+ человек</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="name">Имя</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="comments">Комментарий (опционально)</label>
+                            <textarea id="comments" name="comments" rows="3"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">🏕️ Лесная поляна</span>
+                </div>
+                
+                <div class="footer-text">
+                    <p>&copy; 2024 База отдыха "Лесная поляна". Все права защищены.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Политика конфиденциальности</a>
+                    <a href="#" class="footer-link">Условия использования</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Кнопка "Наверх" -->
+    <button class="scroll-top" id="scroll-top" aria-label="Наверх">
+        <span>↑</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
